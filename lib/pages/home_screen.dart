@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../colors.dart';
 import '../models/coffee_model.dart';
 import 'coffee_details_screen.dart';
@@ -99,7 +98,7 @@ class _CoffeeAppHomeScreenState extends State<CoffeeAppHomeScreen> {
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 Image.asset(
-                                  "assets/coffee-shop/ic_star_filled.png",
+                                  "assets/ic_star_filled.png",
                                   height: 12,
                                   width: 12,
                                 ),
@@ -191,7 +190,7 @@ class _CoffeeAppHomeScreenState extends State<CoffeeAppHomeScreen> {
               Row(
                 children: [
                   const Text(
-                    "Kathmandu, Nepal",
+                    "Sri Lanka, Anuradhapura",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.white,
@@ -222,7 +221,7 @@ class _CoffeeAppHomeScreenState extends State<CoffeeAppHomeScreen> {
                   child: Row(
                     children: [
                       Image.asset(
-                        "assets/coffee-shop/ic_search.png",
+                        "assets/ic_search.png",
                         color: Colors.white,
                         height: 35,
                       ),
@@ -269,7 +268,7 @@ class _CoffeeAppHomeScreenState extends State<CoffeeAppHomeScreen> {
           ClipRRect(
             borderRadius: BorderRadius.circular(15),
             child: Image.asset(
-              "assets/coffee-shop/banner.png",
+              "assets/banner.png",
               width: double.infinity,
               height: 140,
               fit: BoxFit.cover,

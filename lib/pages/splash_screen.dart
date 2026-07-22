@@ -18,7 +18,7 @@ class SplashScreen extends StatelessWidget {
           children: [
             SizedBox(
               child: Image.asset(
-                "assets/coffee-shop/bg.png",
+                "assets/bg.png",
                 height: size.height / 1.3,
                 fit: BoxFit.cover,
               ),

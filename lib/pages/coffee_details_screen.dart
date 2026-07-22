@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:readmore/readmore.dart';
-
 import '../colors.dart';
 import '../models/coffee_model.dart';
 import '../widgets/common_button.dart';
@@ -88,7 +87,7 @@ class _CoffeeDetaiScreenState extends State<CoffeeDetaiScreen> {
                       Row(
                         children: [
                           Image.asset(
-                            "assets/coffee-shop/ic_star_filled.png",
+                            "assets/ic_star_filled.png",
                             width: 20,
                             height: 20,
                           ),
@@ -114,9 +113,9 @@ class _CoffeeDetaiScreenState extends State<CoffeeDetaiScreen> {
                   ),
                   Row(
                     children: [
-                      "assets/coffee-shop/bike.png",
-                      "assets/coffee-shop/bean.png",
-                      "assets/coffee-shop/milk.png",
+                      "assets/bike.png",
+                      "assets/bean.png",
+                      "assets/milk.png",
                     ].map((e) {
                       return Container(
                         margin: const EdgeInsets.only(left: 12),
